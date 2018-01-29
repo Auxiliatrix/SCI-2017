@@ -1,0 +1,27 @@
+Showcase:
+
+stats
+
+display 604 stats and pin it
+
+add a comparison for 254 v 971
+
+create climber group
+filter out bad climbers
+sort by climb time
+pin it
+
+create gear/climb group
+clone climber group
+filter out bad gearbots
+filter out slow climbers
+sort by total gears
+pin it
+
+create picklist
+add 254
+add 971
+add gear/climber group
+add rank factors: climbpercentage, climbtime, totalgears, balls
+notice repeat handling
+pin it

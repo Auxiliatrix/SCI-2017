@@ -1,0 +1,22 @@
+crt test -cln master
+mod test -flt AutonGears > 0.5
+pin test
+mod test -srt AutonGears
+srt test -dec AutonGears
+pin test
+srt test -inc AutonGears
+pin test
+cmp 604 254
+cmp 604 1868
+cmp 8 604
+cmp 8 604
+crt -cln master test
+rem -cln
+crt test -cln master
+srt test -inc TeleGears
+pin test
+srt test -dec ClimbTime
+pin test
+cmp 604 254
+pin 604
+cmp 604 254
